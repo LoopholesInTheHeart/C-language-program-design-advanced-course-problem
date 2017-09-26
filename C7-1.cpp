@@ -33,6 +33,8 @@ private:
 //请实现CreditAccount类的构造函数CreditAccount(char* name, long number)
 //请实现CreditAccount类的PrintInfo()函数
 
+//--------------------以下是答案--------------------
+
 Account::Account(string name):userName(name)
 {
 
@@ -53,6 +55,8 @@ void CreditAccount::PrintInfo()
     PrintUserName();
     cout<<credit<<endl;
 }
+
+//--------------------以上是答案--------------------
 
 int main()
 {
