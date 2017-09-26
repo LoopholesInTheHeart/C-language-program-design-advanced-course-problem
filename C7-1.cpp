@@ -5,6 +5,20 @@
 从Account类派生出CreditAccount类，增加整型数据成员credit用于记录该用户信用额度，
 函数成员包括带参构造函数用于初始化数据成员和输出账户信息的成员函数PrintInfo()。
 要求：在函数PrintInfo()中需要调用基类的成员函数PrintName()。
+
+输入描述
+无
+
+输出描述
+输出共两行，第一行为账户姓名，第二行为账户信用额度
+
+样例输入
+无
+
+样例输出
+I Love CPP
+10000
+
 */
 #include <iostream>
 #include <string>
