@@ -68,7 +68,7 @@ Complex Complex::operator/(const Complex &c2) const
 }
 ostream &operator<<(ostream &out, const Complex &c)
 {
-    cout << c.real << " " << c.imag << endl;
+    out << c.real << " " << c.imag << endl;
     return out;
 }
 //--------------------以上是答案--------------------
