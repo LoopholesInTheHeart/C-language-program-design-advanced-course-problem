@@ -40,14 +40,21 @@ QUIT
 #include <algorithm>
 
 using namespace std;
-
+/*
+程序思路：
+  使用map构建一个<string,int>,string存储输入的字符串，int存储被输入的次数。
+  字符串被读入时先与QUIT做对比，然后搜索map主键看是否有一致的字符串，
+  当有一致的字符串时对int执行自增操作，并输出引用数量，
+  不一致时insert一个，使用make_pair构建一个
+*/
 int f2()
 {
 	map<string, int> mapval2;
 	string stringval2;
 	do
 	{
-		getline(cin, stringval2);
+		//getline(cin, stringval2);
+		cin>>stringval2;
 		//输入一串字符串，判断是不是 QUIT
 		if ("QUIT" != stringval2)
 		{
